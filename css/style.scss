@@ -2,9 +2,9 @@
 layout: null
 sitemap: false
 ---
-h1 a img {
-    height: auto; // Remove any fixed height to maintain aspect ratio
-    width: 120px; // Example width, adjust as needed
+.header-logo {
+    height: auto; // Maintains aspect ratio
+    width: 120px; // Adjust this value to scale the logo
 }
 $brand-colour: #35d69b;
 
