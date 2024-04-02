@@ -2,7 +2,10 @@
 layout: null
 sitemap: false
 ---
-
+h1 a img {
+    height: auto; // Remove any fixed height to maintain aspect ratio
+    width: 120px; // Example width, adjust as needed
+}
 $brand-colour: #35d69b;
 
 $nav-header-height: 60px;
