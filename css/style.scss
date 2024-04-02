@@ -2,9 +2,13 @@
 layout: null
 sitemap: false
 ---
+.logo-container {
+  text-align: center;
+}
+
 .header-logo {
-    height: auto; // Maintains aspect ratio
-    width: 120px; // Adjust this value to scale the logo
+  height: auto;
+  width: 120px; // Adjust this value to scale the logo
 }
 $brand-colour: #005072;
 
