@@ -3,7 +3,9 @@ layout: null
 sitemap: false
 ---
 .logo-container {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; // This centers the logo vertically, if the container's height is larger than the logo
 }
 
 .header-logo {
